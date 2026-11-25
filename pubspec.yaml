@@ -1,0 +1,24 @@
+name: oyun_kim_en_cok
+description: "Kim En Çok? – Parti ve Aile merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 03712efb1978a621943ed9b91d98e4fcad629898
+  parti_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/parti-motoru
+      ref: 3492051b33d632b8992d6c2aaa0588f2bf4815f0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
